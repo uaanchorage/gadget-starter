@@ -22,7 +22,7 @@
     <entry key="notifications" private="true">message</entry>
     
     <!-- For sidebar gadgets only. See explanation at bottom. -->
-    <entry key="sidebar_context" private="true">edit</entry>
+    <!-- <entry key="sidebar_context" private="true">edit</entry> -->
     
     <!-- For dashboard gadgets only. Determines the width of the gadget in columns. 
          Can be 1, 2, or 3. -->
