@@ -130,6 +130,7 @@ The configuration file named config.xml, must be in the root directory of the ga
 >| copy  | Page copied |
 >| params-save  | Page Properties saved |
 >| zipimport  | Zip uploaded |
+>| wysiwyg-selection  | When content selection occurs in the WYSIWYG (Legacy WYSIWYG/ JustEdit) |
 
 >#### **``columns``**
 >
