@@ -8,13 +8,15 @@ var rename = require("gulp-rename");
 
 //default task:
 gulp.task('default', ['sass', 'scripts']);
+gulp.task('build', ['sass', 'scripts', 'watch']);
 
-/* watchers:
+// watchers:
 gulp.task('watch', function() {
 
-  gulp.watch('source/scss/*.sass', ['sass']);
+  gulp.watch('source/scss/*.scss', ['sass']);  
+  gulp.watch('source/js/*.js', ['scripts']);
 
-});*/
+});
 
 gulp.task('sass', function () {
   gulp.src(['./bower_components/bootstrap/dist/css/bootstrap.min.css', './source/scss/app.scss'])
