@@ -1,6 +1,6 @@
 # gadget-starter
 
-A skeleton for creating Gadgets for the [OU Campus™ web content management system](http://www.omniupdate.com).
+A **modified** skeleton for creating Gadgets for the [OU Campus™ web content management system](http://www.omniupdate.com).
 
 ## Creating and Installing Gadgets
 
