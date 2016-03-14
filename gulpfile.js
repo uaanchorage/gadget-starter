@@ -19,7 +19,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('sass', function () {
-  gulp.src(['./bower_components/bootstrap/dist/css/bootstrap.min.css', './source/scss/app.scss'])
+  gulp.src(['./bower_components/bootstrap/dist/css/bootstrap.min.css', './source/scss/*.scss'])
     .pipe(sass.sync().on('error', sass.logError))
     .pipe(concat('gadget.css'))
     .pipe(gulp.dest('./build/css/'))
