@@ -13,6 +13,8 @@ $(document).ready(function () {
     */
     gadget.ready().then(gadget.fetch).then(function () {
         
+        $("#main").addClass( gadget.get('place') );
+
         $("#status").html("Gadget Loaded.");
         
     });
